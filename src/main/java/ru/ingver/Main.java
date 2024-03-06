@@ -6,9 +6,9 @@ import java.util.Scanner;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        int one = 2;
-        int second = 4;
-        int sum = one + second;
+        int numberOne = 6;
+        int numberTwo = 7;
+        int sum = numberOne + numberTwo;
 
         System.out.println(sum);
     }
