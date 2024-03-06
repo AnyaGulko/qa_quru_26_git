@@ -6,10 +6,10 @@ import java.util.Scanner;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        int numberOne = 6;
-        int numberTwo = 7;
-        int sum = numberOne + numberTwo;
+        System.out.print(sum(6,7));
+    }
 
-        System.out.println(sum);
+    public static int sum (int numberOne, int numberTwo){
+        return numberOne + numberTwo;
     }
 }
